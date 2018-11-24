@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends "example_app/base.html" %}
+{% load my_temps %}
+
+    {% block body_block %}
+
+        <h1>Welcome to Child</h1>
+        <h2>This is an example of inheritance</h2>
+
+        <h3>{{ text }}</h3>
+        <h3>{{ number }}</h3>
+
+        <h3>{{ text|upper }}</h3>
+        <h3>{{ number|add:'99' }}</h3>
+
+        <h3>{{ text|cutter:"hello" }}</h3>
+
+    {% endblock %}
