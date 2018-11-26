@@ -27,7 +27,7 @@ SECRET_KEY = 'b)up6u&1^c_&k**)bid-#9jh@*9k&rz^+vime68%92w-t87v)j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zsquarehelix.pythonanywhere.com']
 
 
 # Application definition
